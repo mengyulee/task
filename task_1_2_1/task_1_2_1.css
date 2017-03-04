@@ -1,0 +1,129 @@
+body {
+	font-family: "微软雅黑";
+	margin: 0;
+	padding: 0;
+	background-color: #efefef;
+	
+}
+
+header nav {
+	background-color: black;
+	height: 60px;
+	box-shadow: 1px 1px 5px #666;
+}
+
+header nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	height: 60px;
+}
+.logo {
+	float: left;
+	width: 80px;
+}
+
+.logo img {
+	height: 60px;
+}
+
+.right {
+	float: right;
+}
+
+.right li {	
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	line-height: 10px;
+	padding: 24px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	color: #efefef;
+}
+
+.title {
+	color:#666;
+}
+
+.indent {
+	text-indent: 2em;
+}
+
+.page {
+	background-color: white;
+	margin:25px;
+	box-shadow: 1px 1px 5px #666;
+	padding: 20px;
+	clear: both;
+	overflow: hidden;
+}
+
+.page ul li {
+	list-style-type:none; 
+}
+
+.border ul {
+	border:1px solid;
+	padding: 10px;
+	margin-right:950px;
+	text-align: center; 
+	float: left;
+}
+
+table,tr,td{
+	border-style: solid;
+	border-color: #efefef;
+	border-width: 1px;
+}
+
+.cap {
+	font-weight: bold;
+	color: white;
+	background-color: black;
+}
+
+.fot{
+	background-color: #efefef;
+	font-weight: bold;
+}
+
+.content {
+	text-align: center;
+	line-height: 2em;
+}
+
+.note {
+	color: #666;
+}
+
+input.button {
+	background-color: blue;
+	width: 100%;
+	height: 40px;
+	border-radius: 15px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+table.info {
+	
+}
+
+footer {
+	background-color: black;
+	text-align: center;
+	margin-top: 0;
+	height: 50px;
+	color: white;
+	font-size: 14px;
+	padding: 4px 6px;
+}
